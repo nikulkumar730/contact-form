@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact form</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <style>
+      * {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      a{
+        text-decoration: none;
+      }
+      .main {
+        width: 100%;
+        display: block;
+      }
+      .center {
+        width: 950px;
+        margin: 0 auto;
+      }
+      .w-60 {
+        text-align: center;
+        width: 60%;
+        display: table;
+        background-color: rgba(196, 210, 214, 0.802);
+        padding: 25px;
+      }
+      .w-40 {
+        display: inline-block;
+        width: 40%;
+      }
+      label {
+        padding-bottom: 5px;
+      }
+      input{
+        border: 1px solid #ccc;
+      }
+      .flex {
+        display: flex;
+        padding: 20px;
+      }
+      .flex label {
+        width: 50%;
+        float: left;
+        margin-left: -10px;
+        display: inline-block;
+      }
+      .name-email {
+        width: 100%;
+      }
+      .w-50 {
+        width: 50%;
+        float:left;
+        display: inline-block;
+      }
+      .w-50 input {
+        padding: 10px;
+      }
+      .w-40 map {
+        display: flex;
+      }
+      .subject-sec {
+        width: 100%;
+        display: inline-block;
+        padding: 35px;
+        text-align: start;
+        box-sizing: border-box;
+      }
+      .subject-sec label {
+        padding-left: 10px;
+        width: 100%;
+        text-align: start;
+        display: inline-block;
+        box-sizing: border-box !important;
+      }
+      .subject-sec input {
+        box-sizing: border-box;
+        padding: 10px;
+        width: 100%;
+      }
+      .subject-sec ::placeholder {
+        box-sizing: content-box;
+        text-align: start;
+      }
+      .msg-section {
+        display: inline-block;
+        width: 100%;
+        padding: 0 35px;
+        box-sizing: border-box;
+      }
+      .msg-section label{
+        padding-left: 10px;
+        width: 100%;
+        text-align: start;
+        display: inline-block;
+      }
+      .msg-section textarea {
+        padding-left: 10px;
+        width: 100%;
+        text-align: start;
+        display: inline-block;
+        box-sizing: border-box;
+        height: 70px;
+        border: 1px solid #ccc;
+      }
+      .msg-section button{
+        text-align: start;
+        display: block;
+        padding: 15px 20px;
+        margin: 20px 0;
+        background-color: #0356fd;
+        border: 0px;
+        color: #fff;
+      }
+.cards{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.w-25{
+    width: 25%;
+    display: inline-block;
+    text-align: center;
+}
+.w-25 span{
+    padding: 15px;
+    background-color: #0356fd;
+    border-radius: 50%;
+    color:#fff
+}
+.ptag{
+    font-size: 12px;
+    padding: 0 20px;
+}
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="center">
+        <div class="main">
+          <h1 style="text-align: center">Contact form by nikul</h1>
+          <div class="flex">
+            <div class="w-60">
+              <div class="name-email">
+                <h2>Contact us</h2>
+                <div class="w-50">
+                  <label for="fname">Name</label>
+                  <input type="text" placeholder="Name " name="fname" id="fname"/>
+                </div>
+                <div class="w-50">
+                  <label for="email">Email</label>
+                  <input type="text" placeholder="Email "  name="email" id="email"/>
+                </div>
+              </div>
+              <div class="subject-sec">
+                <label for="subject">Subject</label>
+                <input type="text" placeholder="Subject" name="subject" id="subject" />
+              </div>
+              <div class="msg-section">
+                <label for="Message">Message</label>
+                <textarea name="Message" id="" cols="30" rows="10" name="Message" id="Message"></textarea>
+                <button>Send Message</button>
+              </div>
+            </div>
+            <div class="w-40">
+              <map name="">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14688.075381917264!2d72.5386422872543!3d23.023080257624063!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e85558e268fcd%3A0xe5ba6fa8382060ed!2sFelix%20IT%20Systems%20%7C%20UI%20UX%20Design%20Courses%20in%20Ahmedabad%20%7C%20Fullstack%20courses%20with%20Placement!5e0!3m2!1sen!2sin!4v1710480860218!5m2!1sen!2sin"
+                  width="600"
+                  height="500"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </map>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="w-25 ptag">
+               <a href="#"><span class="material-symbols-outlined">
+                location_on
+                </span></a>
+                <p><strong>Address:</strong> 198 west 21<sup>th</sup> street<br>suite 721 new your NY 100016</p>
+  
+                </div>
+            <div class="w-25 ptag">
+                <a href="#"><span class="material-symbols-outlined">
+                    wifi_calling_3
+                    </span></a>
+                    <p><strong>phone +</strong> <a href="">1234567890</a></p>
+            </div>
+            <div class="w-25 ptag">
+                <a href="#"><span class="material-symbols-outlined">
+                    send
+                    </span></a>
+                    <p><strong>Email</strong> <a href="">ram123@gmail.com</a></p>
+            </div>
+            <div class="w-25 ptag">
+                <a href="#"><span class="material-symbols-outlined">
+                    globe_uk
+                    </span></a>
+                    <p><strong>website</strong> <a href="www.google.com">www.google.com</a></p>
+            </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
